@@ -28,17 +28,17 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='scratchapi',
+    name='scratch-manager',
 
-    version='1.0.0',
+    version='0.1.0',
 
-    description='ScratchAPI is a Scratch API interface written in Python',
+    description='Scratch Manager is a python library used to manage all aspects of Scratch.',
     long_description=long_description,
 
-    url='https://github.com/Dylan5797/ScratchAPI',
+    url='https://github.com/pufferfish101007/ScratchAPI',
 
-    author='Dylan Beswick',
-    author_email='djbeswick64@gmail.com',
+    author='Gregor Hutchison',
+    author_email='llamabob666@gmail.com',
 
     classifiers=[
         'Development Status :: 3 - Alpha',
@@ -49,7 +49,7 @@ setup(
 
     keywords=['scratch', 'api', 'cloud'],
 
-    py_modules=["scratchapi"],
+    py_modules=["scratch-manager"],
 
     install_requires=['requests', 'websockets'],
 
