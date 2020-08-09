@@ -30,6 +30,8 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #          __/ |
 #         |___/
 
+# Edited by Pufferfish101007 
+
 import requests as _requests
 import json as _json
 import socket as _socket
@@ -45,7 +47,7 @@ class ScratchUserSession:
         self.PROJECTS_SERVER = 'projects.scratch.mit.edu'
         self.ASSETS_SERVER = 'assets.scratch.mit.edu'
         self.CDN_SERVER = 'cdn.scratch.mit.edu'
-        self.CLOUD = 'cloud.scratch.mit.edu'
+        self.CLOUD = 'clouddata.scratch.mit.edu'
         self.CLOUD_PORT = 531
 
         self.lib.utils.request = self._request
